@@ -37,7 +37,7 @@ export const DemoIcon: Demo = {
   data: [
     <DemoUseCase
       name="Icons"
-      description="List of icons registered inside the component."
+      description="Example icons."
       layout="row"
     >
       {Object.keys(iconRegistry).map((icon) => (
